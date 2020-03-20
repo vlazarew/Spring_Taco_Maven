@@ -10,9 +10,9 @@ import java.util.List;
 public class Taco {
 
     @NotNull
-    @Size(min = 5,message = "Наименование позиции должно быть не менее 5 символов.")
+    @Size(min = 5, message = "Наименование позиции должно быть не менее 5 символов.")
     private String name;
 
-    @Size(min = 1,message = "Должно быть выбрано не менее одно ингридиента.")
+    @Size(min = 1, message = "Должно быть выбрано не менее одно ингридиента.")
     private List<String> ingredients;
 }
