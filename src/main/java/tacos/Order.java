@@ -7,25 +7,31 @@ import org.hibernate.validator.constraints.CreditCardNumber;
 import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 @Data
 @RequiredArgsConstructor
 public class Order {
 
+    private Long id;
+    private Date placedAt;
+
     @NotBlank(message = "Имя получателя обязательно")
-    private String name;
+    private String deliveryName;
 
     @NotBlank(message = "Улица получателя обязательна")
-    private String street;
+    private String deliveryStreet;
 
     @NotBlank(message = "Горож получателя обязателен")
-    private String city;
+    private String deliveryCity;
 
     @NotBlank(message = "Регион получателя обязателен")
-    private String state;
+    private String deliveryState;
 
     @NotBlank(message = "Почтовый индкс получателя обязателнг")
-    private String zip;
+    private String deliveryZip;
 
     @CreditCardNumber(message = "Номер кредитной карты получателя обязателен")
     private String ccNumber;
@@ -35,4 +41,11 @@ public class Order {
 
     @Digits(integer = 3, fraction = 0, message = "Некорректный код CVV")
     private String ccCVV;
+
+    private List<Taco> tacos = new ArrayList<>();
+
+    public void addDesign(Taco design) {
+        this.tacos.add(design);
+    }
+
 }

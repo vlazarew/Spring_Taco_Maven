@@ -13,16 +13,16 @@
 <h1>Придумай свою шаверму</h1>
 <!--<img th:src="@{images/TacoCloud.png}">-->
 <img th:src="@{images/swarma.jpg}">
-<form method="post" th:object="${design}">
+<form method="post" th:object="${taco}">
 
 <span class="validationError"
       th:if="${#fields.hasErrors('ingredients')}"
       th:errors="*{ingredients}">Ошибка ингредиента</span>
 	
 	<div class="grid">
-		<div class="ingredint-group" id="wraps">
+		<div class="ingredient-group" id="wraps">
 			<h3>Выбери лаваш:</h3>
-			<div th:each="ingredient:${wrap}">
+			<div th:each="ingredient : ${wrap}">
 				<input name="ingredients" type="checkbox" th:value="${ingredient.id}"/>
 				<span th:text="${ingredient.name}">Ингредиент</span>
 			</div>
