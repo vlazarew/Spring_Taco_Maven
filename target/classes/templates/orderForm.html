@@ -8,6 +8,10 @@
 </head>
 <body>
 
+<form method="POST" th:action="@{/logout}" id="logoutForm">
+	<input type="submit" value="Logout"/>
+</form>
+
 <form th:method="post" th:action="@{/orders}" th:object="${order}">
 	<h1>Закажи шаверму</h1>
 	<img th:src="@{/images/TacoCloud.png}"/>

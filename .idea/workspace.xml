@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b27576ba-0dbe-416b-9621-4d9779c03f62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tacos/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tacos/data/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tacos/security/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tacos/security/RegistrationForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tacos/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tacos/security/UserRepositoryUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tacos/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tacos/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tacos/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/Taco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tacos/Taco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tacos/web/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/web/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tacos/web/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/design.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/design.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/orderForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/orderForm.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +72,9 @@
         <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -185,8 +196,6 @@
       <module name="Spring_Taco_Maven" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tacos.TacoCloudApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -259,7 +268,7 @@
       <workItem from="1584797216253" duration="4053000" />
       <workItem from="1584801655079" duration="4478000" />
       <workItem from="1584866390635" duration="387000" />
-      <workItem from="1584883771934" duration="243000" />
+      <workItem from="1584883771934" duration="9876000" />
     </task>
     <servers />
   </component>
@@ -285,14 +294,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#SQL_Dialects/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584727711292" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584801240102">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584885342207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584801240102" />
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1584820085553">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584885342207" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1584888637982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584820085553" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584888637982" />
     <state x="756" y="379" width="407" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584642422727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -313,46 +322,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="427" height="447" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584783921011" />
-    <state x="758" y="222" key="ExecutionTargetDialog" timestamp="1584883961242">
+    <state x="758" y="222" key="ExecutionTargetDialog" timestamp="1584893408681">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="758" y="222" key="ExecutionTargetDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584883961242" />
+    <state x="758" y="222" key="ExecutionTargetDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584893408681" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1584801270667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584801270667" />
-    <state width="1246" height="227" key="GridCell.Tab.0.bottom" timestamp="1584883961219">
+    <state width="1241" height="227" key="GridCell.Tab.0.bottom" timestamp="1584894960098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1246" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584883961219" />
-    <state width="1246" height="227" key="GridCell.Tab.0.center" timestamp="1584883961219">
+    <state width="1241" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584894960098" />
+    <state width="1241" height="227" key="GridCell.Tab.0.center" timestamp="1584894960098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1246" height="227" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584883961219" />
-    <state width="1246" height="227" key="GridCell.Tab.0.left" timestamp="1584883961219">
+    <state width="1241" height="227" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584894960098" />
+    <state width="1241" height="227" key="GridCell.Tab.0.left" timestamp="1584894960098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1246" height="227" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584883961219" />
-    <state width="1246" height="227" key="GridCell.Tab.0.right" timestamp="1584883961219">
+    <state width="1241" height="227" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584894960098" />
+    <state width="1241" height="227" key="GridCell.Tab.0.right" timestamp="1584894960098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1246" height="227" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584883961219" />
-    <state width="1246" height="227" key="GridCell.Tab.1.bottom" timestamp="1584883961220">
+    <state width="1241" height="227" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584894960098" />
+    <state width="1241" height="227" key="GridCell.Tab.1.bottom" timestamp="1584894960098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1246" height="227" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584883961220" />
-    <state width="1246" height="227" key="GridCell.Tab.1.center" timestamp="1584883961220">
+    <state width="1241" height="227" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584894960098" />
+    <state width="1241" height="227" key="GridCell.Tab.1.center" timestamp="1584894960098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1246" height="227" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584883961220" />
-    <state width="1246" height="227" key="GridCell.Tab.1.left" timestamp="1584883961219">
+    <state width="1241" height="227" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584894960098" />
+    <state width="1241" height="227" key="GridCell.Tab.1.left" timestamp="1584894960098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1246" height="227" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584883961219" />
-    <state width="1246" height="227" key="GridCell.Tab.1.right" timestamp="1584883961220">
+    <state width="1241" height="227" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584894960098" />
+    <state width="1241" height="227" key="GridCell.Tab.1.right" timestamp="1584894960098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1246" height="227" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584883961220" />
+    <state width="1241" height="227" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584894960098" />
     <state width="938" height="293" key="GridCell.Tab.2.bottom" timestamp="1584821106991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -389,25 +398,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="702" y="138" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584561252471" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1584729405465">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1584888575780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584729405465" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584819150704">
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584888575780" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584891995411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584819150704" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584891995411" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tacos/web/DesignTacoController.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
         <watch expression="types" />

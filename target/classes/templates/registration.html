@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://thymeleaf.org">
+<head>
+	<title>Шаверма "Вкусно"</title>
+</head>
+
+<body>
+
+<h1>Регистрация</h1>
+<img th:src="@{images/TacoCloud.png}"/>
+
+<form method="Post" th:action="@{/register}" id="registerForm">
+	
+	<label for="username">Логин: </label>
+	<input type="text" name="username"/><br/>
+	
+	<label for="password">Пароль: </label>
+	<input type="password" name="password"/><br/>
+	
+	<label for="confirmPassword">Подтвердите пароль: </label>
+	<input type="password" name="confirmPassword"/><br/>
+	
+	<label for="fullname">Полное имя: </label>
+	<input type="text" name="fullname"/><br/>
+	
+	<label for="street">Улица: </label>
+	<input type="text" name="street"/><br/>
+	
+	<label for="city">Город: </label>
+	<input type="text" name="city"/><br/>
+	
+	<label for="state">Регион: </label>
+	<input type="text" name="state"/><br/>
+	
+	<label for="zip">Почтовый индекс: </label>
+	<input type="text" name="zip"/><br/>
+	
+	<label for="phone">Телефон: </label>
+	<input type="text" name="phone"/><br/>
+	
+	<input type="submit" value="Register"/>
+
+</form>
+
+
+</body>
+
+</html>
