@@ -14,15 +14,12 @@ public class Taco {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id")
     private Long id;
 
-    @Column(name = "createdAt")
     private Date createdAt;
 
     @NotNull
     @Size(min = 5, message = "Наименование позиции должно быть не менее 5 символов.")
-    @Column(name = "name")
     private String name;
 
     @ManyToMany(targetEntity = Ingredient.class)

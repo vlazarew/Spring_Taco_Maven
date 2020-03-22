@@ -14,13 +14,10 @@ import javax.persistence.*;
 public class Ingredient {
 
     @Id
-    @Column(name = "id")
     private  final String id;
 
-    @Column(name = "name")
     private final String name;
 
-    @Column(name = "type")
     @Enumerated (EnumType.STRING)
     private final Type type;
 
