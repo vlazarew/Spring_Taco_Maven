@@ -1,0 +1,10 @@
+{
+  "properties": [
+    {
+      "name": "taco.orders.pageSize",
+      "type": "java.lang.String",
+      "description": "Указывает максимально допустимое кол-во заказов на странице."
+    }
+
+  ]
+}
