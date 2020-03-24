@@ -35,7 +35,7 @@ public class OrderController {
             order.setDeliveryName(user.getFullname());
         }
         if (order.getDeliveryStreet() == null) {
-            order.setDeliveryName(user.getStreet());
+            order.setDeliveryStreet(user.getStreet());
         }
         if (order.getDeliveryCity() == null) {
             order.setDeliveryCity(user.getCity());
