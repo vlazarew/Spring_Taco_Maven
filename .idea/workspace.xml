@@ -2,15 +2,118 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b27576ba-0dbe-416b-9621-4d9779c03f62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tacos/DevelopmentConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tacos/web/OrderProps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity4_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_testing_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/tacocloud-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-data/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/.angular-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/e2e/tsconfig.e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/assets/CloudBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/assets/Cloud_sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/assets/TacoCloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/assets/TacoPhoto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/assets/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/assets/down-triangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/assets/taco-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacos/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacos/src/main/java/tacos/TacoCloudApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/data/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tacos/data/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tacos/web/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/DevelopmentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacos/src/main/java/tacos/DevelopmentConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-domain/src/main/java/tacos/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-domain/src/main/java/tacos/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/Taco.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-domain/src/main/java/tacos/Taco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/TacoCloudApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-domain/src/main/java/tacos/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/data/IngredientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-data/src/main/java/tacos/data/IngredientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/data/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-data/src/main/java/tacos/data/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/data/TacoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-data/src/main/java/tacos/data/TacoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/data/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-data/src/main/java/tacos/data/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/security/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-security/src/main/java/tacos/security/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/security/RegistrationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-security/src/main/java/tacos/security/RegistrationForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-security/src/main/java/tacos/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/security/UserRepositoryUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-security/src/main/java/tacos/security/UserRepositoryUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/web/DesignTacoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/DesignTacoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/web/IngredientByIdConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-web/src/main/java/tacos/web/IngredientByIdConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-web/src/main/java/tacos/web/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/web/OrderProps.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-web/src/main/java/tacos/web/OrderProps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tacos/web/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-web/src/main/java/tacos/web/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/tacos/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tacos/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/tacos/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mySQL/model.mwb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mySQL/model.mwb.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/tacos/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/TacoCloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/swarma.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/design.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/orderForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tacos/HomeControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tacos/TacoCloudApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Spring_Taco_Maven.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mySQL/model.mwb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mySQL/model.mwb.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/TacoCloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/swarma.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/design.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/orderForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Spring_Taco_Maven.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +169,8 @@
         <option value="JUnit4 Test Class" />
         <option value="CSS File" />
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -80,6 +183,9 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/tacocloud-ui/package.json" />
   </component>
   <component name="ProjectId" id="1ZGp8498D2vvG9DFrMYpAr287BQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -113,13 +219,16 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/tacocloud-ui/node_modules/protractor" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="spring.boot" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="ts.external.directory.path" value="D:\Универ\4 курс\Spring_Taco_Maven\tacocloud-ui\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -133,12 +242,14 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Универ\4 курс\Spring_Taco_Maven\tacocloud-ui\src" />
+      <recent name="D:\Универ\4 курс\Spring_Taco_Maven\tacos\src\main\resources" />
       <recent name="D:\Универ\4 курс\Spring_Taco_Maven\src\main\resources\static" />
       <recent name="D:\Универ\4 курс\Spring_Taco_Maven\src\main\resources\templates" />
       <recent name="D:\Универ\4 курс\Spring_Taco_Maven\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.TacoCloudApplication">
+  <component name="RunManager" selected="npm.ng">
     <configuration name="HomeControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring_Taco_Maven" />
       <extension name="coverage">
@@ -185,8 +296,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="E2E Tests (tacocloud-ui)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/tacocloud-ui/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/tacocloud-ui/node_modules/protractor" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application (tacocloud-ui)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
     <configuration name="TacoCloudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="Spring_Taco_Maven" />
+      <module name="tacos" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tacos.TacoCloudApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
@@ -195,14 +318,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Angular CLI Server (tacocloud-ui)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/tacocloud-ui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/tacocloud-ui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="ng" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/tacocloud-ui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="ng" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.Angular Application (tacocloud-ui)" />
       <item itemvalue="JUnit.HomeControllerTest" />
       <item itemvalue="JUnit.TacoCloudApplicationTests" />
       <item itemvalue="JUnit.TacoCloudApplicationTests.contextLoads" />
+      <item itemvalue="npm.Angular CLI Server (tacocloud-ui)" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="Protractor.E2E Tests (tacocloud-ui)" />
       <item itemvalue="Spring Boot.TacoCloudApplication" />
+      <item itemvalue="npm.ng" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.ng" />
+        <item itemvalue="npm.build" />
         <item itemvalue="JUnit.TacoCloudApplicationTests" />
         <item itemvalue="JUnit.HomeControllerTest" />
         <item itemvalue="JUnit.TacoCloudApplicationTests.contextLoads" />
@@ -269,7 +429,13 @@
       <workItem from="1585067340818" duration="1005000" />
       <workItem from="1585069282976" duration="961000" />
       <workItem from="1585075922646" duration="3725000" />
-      <workItem from="1585079685817" duration="809000" />
+      <workItem from="1585079685817" duration="1663000" />
+      <workItem from="1585239936567" duration="611000" />
+      <workItem from="1585241108057" duration="2226000" />
+      <workItem from="1585243432060" duration="4409000" />
+      <workItem from="1585249316967" duration="1564000" />
+      <workItem from="1585327332384" duration="2797000" />
+      <workItem from="1585330144732" duration="290000" />
     </task>
     <servers />
   </component>
@@ -287,26 +453,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Assign_Data_Sources/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584806433232" />
+    <state x="552" y="178" key="#Inspections" timestamp="1585249759786">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Inspections/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585249759786" />
     <state x="552" y="178" key="#Notifications" timestamp="1584795271774">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584795271774" />
+    <state x="552" y="178" key="#Project_Structure" timestamp="1585249443399">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585249443399" />
     <state x="552" y="178" key="#SQL_Dialects" timestamp="1584727711292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#SQL_Dialects/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584727711292" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584909029502">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585329991696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584909029502" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585329991696" />
+    <state x="686" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585241324899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="686" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585241324899" />
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1584888637982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584888637982" />
-    <state x="756" y="379" width="407" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584642422727">
+    <state x="590" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585249905630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="756" y="379" width="407" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584642422727" />
+    <state x="590" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585249905630" />
+    <state x="756" y="379" width="407" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585249436264">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="379" width="407" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585249436264" />
     <state x="768" y="350" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1584785993620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -331,38 +513,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584801270667" />
-    <state width="1208" height="227" key="GridCell.Tab.0.bottom" timestamp="1585079670247">
+    <state width="1184" height="212" key="GridCell.Tab.0.bottom" timestamp="1585330357484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1208" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585079670247" />
-    <state width="1208" height="227" key="GridCell.Tab.0.center" timestamp="1585079670247">
+    <state width="1184" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585330357484" />
+    <state width="1184" height="212" key="GridCell.Tab.0.center" timestamp="1585330357484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1208" height="227" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585079670247" />
-    <state width="1208" height="227" key="GridCell.Tab.0.left" timestamp="1585079670247">
+    <state width="1184" height="212" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585330357484" />
+    <state width="1184" height="212" key="GridCell.Tab.0.left" timestamp="1585330357484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1208" height="227" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585079670247" />
-    <state width="1208" height="227" key="GridCell.Tab.0.right" timestamp="1585079670247">
+    <state width="1184" height="212" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585330357483" />
+    <state width="1184" height="212" key="GridCell.Tab.0.right" timestamp="1585330357484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1208" height="227" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585079670247" />
-    <state width="1208" height="227" key="GridCell.Tab.1.bottom" timestamp="1585079670248">
+    <state width="1184" height="212" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585330357484" />
+    <state width="1196" height="212" key="GridCell.Tab.1.bottom" timestamp="1585250882251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1208" height="227" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585079670248" />
-    <state width="1208" height="227" key="GridCell.Tab.1.center" timestamp="1585079670248">
+    <state width="1196" height="212" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585250882251" />
+    <state width="1196" height="212" key="GridCell.Tab.1.center" timestamp="1585250882251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1208" height="227" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585079670248" />
-    <state width="1208" height="227" key="GridCell.Tab.1.left" timestamp="1585079670247">
+    <state width="1196" height="212" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585250882251" />
+    <state width="1196" height="212" key="GridCell.Tab.1.left" timestamp="1585250882251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1208" height="227" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585079670247" />
-    <state width="1208" height="227" key="GridCell.Tab.1.right" timestamp="1585079670248">
+    <state width="1196" height="212" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585250882251" />
+    <state width="1196" height="212" key="GridCell.Tab.1.right" timestamp="1585250882251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1208" height="227" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585079670248" />
+    <state width="1196" height="212" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585250882251" />
     <state width="938" height="293" key="GridCell.Tab.2.bottom" timestamp="1585068346161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -383,10 +565,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584735029287" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1585079694421">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1585243333961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585079694421" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585243333961" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1584786100082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -403,6 +585,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="521" y="255" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584909469929" />
+    <state x="677" y="328" key="jetbrains.nodejs.interpreters-dialog" timestamp="1585243330846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="328" key="jetbrains.nodejs.interpreters-dialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585243330846" />
+    <state x="342" y="215" key="new project wizard" timestamp="1585250331136">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="215" key="new project wizard/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585250331136" />
     <state x="702" y="138" key="refactoring.ChangeSignatureDialog" timestamp="1584561252471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -411,16 +601,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584888575780" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584891995411">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585247453088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584891995411" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585247453088" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tacos/security/SecurityConfig.java</url>
+          <url>file://$PROJECT_DIR$/tacocloud-security/src/main/java/tacos/security/SecurityConfig.java</url>
           <line>28</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
