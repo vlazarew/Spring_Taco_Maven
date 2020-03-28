@@ -1,0 +1,36 @@
+<div class="header">
+  <div class="logo"><a [routerLink]="['/home']"><img src="assets/TacoCloud.png"/></a></div>
+  <div class="topbar">
+    <div class="topbaritems">
+      <div class="topbaritem" style="font-size: 17pt;">
+        <a [routerLink]="['design']" class="plainlink caps">Создай свое тако</a>
+      </div>
+      <div class="topbaritem">
+        <a href="/login" class="plainlink">
+          <img src="assets/down-triangle.png" style="float: right; margin-right: 15px; margin-top: 12px;"/>
+          <span class="caps small">Войти</span><br/>
+          <span class="smaller">или создать аккаунт</span>
+        </a>
+      </div>
+      <div class="topbaritem" style="font-size: 17pt;">
+        <a [routerLink]="['cart']" class="plainlink">
+          <img src="assets/cart.png" align="center"/>
+          {{cart.getItemsInCart().length * 4.99 | currency}}
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="bottombar">
+    <div class="bottombaritems">
+      <div class="bottombaritem">
+        <a [routerLink]="['recents']" class="plainlink">Последние проекты тако</a>
+      </div>
+      <div class="bottombaritem">
+        <a [routerLink]="['specials']" class="plainlink">Скидки</a>
+      </div>
+      <div class="bottombaritem">
+        <a [routerLink]="['locations']" class="plainlink">Локации</a>
+      </div>
+    </div>
+  </div>
+</div>

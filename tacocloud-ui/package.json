@@ -6,9 +6,9 @@
   "author": "Vladimir Lazarev",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --open",
+    "start": "ng serve",
     "build": "ng build --dev",
-    "prod": "ng build --prod",
+    "prod": "ng biuld --prod",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
@@ -25,10 +25,10 @@
     "@angular/platform-browser": "~9.1.0",
     "@angular/platform-browser-dynamic": "~9.1.0",
     "@angular/router": "~9.1.0",
-    "angular": "^1.7.9",
     "angular-oauth2-oidc": "^3.0.3",
     "core-js": "~3.6.4",
     "rxjs": "~6.5.4",
+    "rxjs-compat": "^6.5.4",
     "zone.js": "~0.10.3"
   },
   "devDependencies": {
@@ -40,7 +40,6 @@
     "@types/jasminewd2": "~2.0.8",
     "@types/node": "~12.12.31",
     "codelyzer": "~5.2.1",
-    "eslint": "^6.8.0",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~5.0.1",
     "karma": "~4.4.1",
