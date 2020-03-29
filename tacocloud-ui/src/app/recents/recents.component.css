@@ -57,7 +57,7 @@ ul.commalist li:not(:first-child):before {
 }
 
 ul.commalist li:last-child:before {
-  content: " and ";
+  content: " и ";
 }
 
 ul.commalist li:only-child:before {

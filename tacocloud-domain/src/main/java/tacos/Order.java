@@ -38,7 +38,7 @@ public class Order implements Serializable {
     @NotBlank(message = "Регион получателя обязателен")
     private String deliveryState;
 
-    @NotBlank(message = "Почтовый индкс получателя обязателнг")
+    @NotBlank(message = "Почтовый индкс получателя обязателен")
     private String deliveryZip;
 
     @CreditCardNumber(message = "Номер кредитной карты получателя обязателен")

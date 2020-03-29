@@ -29,6 +29,9 @@ spring:
 
   main:
     allow-bean-definition-overriding: true
+  data:
+    rest:
+      base-path: /api
 
 logging:
   level:

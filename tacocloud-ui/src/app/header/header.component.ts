@@ -13,6 +13,6 @@ export class HeaderComponent implements OnInit {
     this.cart = cart;
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
 }

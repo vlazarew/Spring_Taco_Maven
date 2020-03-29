@@ -1,18 +1,16 @@
 package tacos.security;
 
-import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.config.annotation.web
-        .configuration.EnableWebSecurity;
-import org.springframework.security.config.annotation.web
-        .configuration.WebSecurityConfigurerAdapter;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.config.annotation
-        .authentication.builders.AuthenticationManagerBuilder;
-import org.springframework.security.config.annotation.web
-        .builders.HttpSecurity;
+import org.springframework.http.HttpMethod;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.crypto.password.StandardPasswordEncoder;
 
@@ -20,21 +18,24 @@ import org.springframework.security.crypto.password.StandardPasswordEncoder;
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-    @Qualifier("userRepositoryUserDetailsService")
     @Autowired
     private UserDetailsService userDetailsService;
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
-                .authorizeRequests()
-                .antMatchers("/design", "/orders")
-                .access("hasRole('ROLE_USER')")
+                .authorizeRequests().antMatchers(HttpMethod.OPTIONS).permitAll()
+                .antMatchers("/design", "/orders").permitAll()//.access("hasRole('ROLE_USER')")
+                .antMatchers(HttpMethod.PATCH, "/ingredients").permitAll()
                 .antMatchers("/**").access("permitAll")
 
                 .and()
                 .formLogin()
                 .loginPage("/login")
+
+                .and()
+                .httpBasic()
+                .realmName("Taco Cloud")
 
                 .and()
                 .logout()
@@ -44,9 +45,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Bean
     public PasswordEncoder encoder() {
-        return new StandardPasswordEncoder("53cr3t");
+//    return new StandardPasswordEncoder("53cr3t");
+        return NoOpPasswordEncoder.getInstance();
     }
-
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth)

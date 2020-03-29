@@ -7,6 +7,22 @@
     <groupId>VovaTest</groupId>
     <artifactId>Spring_Taco_Maven</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.1.RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <tacocloud.version>${project.version}</tacocloud.version>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+    </properties>
+
     <modules>
         <module>tacocloud-ui</module>
         <module>tacos</module>
@@ -14,33 +30,8 @@
         <module>tacocloud-domain</module>
         <module>tacocloud-security</module>
         <module>tacocloud-web</module>
+        <module>tacocloud-api</module>
     </modules>
-    <packaging>pom</packaging>
-
-    <name>Vova_taco-cloud</name>
-    <description>Volodya's Taco Cloud Example</description>
-
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.1.RELEASE</version>
-    </parent>
-
-    <properties>
-        <java.version>1.8</java.version>
-        <project.build.sourceEncoding>
-            UTF-8
-        </project.build.sourceEncoding>
-        <project.reporting.outputEncoding>
-            UTF-8
-        </project.reporting.outputEncoding>
-        <servlet.version>3.1.0</servlet.version>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <spring-cloud.version>Hoxton.SR1</spring-cloud.version>
-        <junit.version>4.12</junit.version>
-        <hibernate.version>5.2.5.Final</hibernate.version>
-    </properties>
 
     <dependencyManagement>
         <!--all spring dependencies -->
@@ -144,6 +135,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-rest</artifactId>
         </dependency>
     </dependencies>
 

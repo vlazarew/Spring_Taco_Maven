@@ -1,6 +1,7 @@
 package tacos;
 
 import lombok.Data;
+import org.springframework.data.rest.core.annotation.RestResource;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
@@ -10,6 +11,7 @@ import java.util.List;
 
 @Data
 @Entity
+@RestResource(rel = "tacos", path = "tacos")
 public class Taco {
 
     @Id
@@ -27,7 +29,7 @@ public class Taco {
     private List<Ingredient> ingredients;
 
     @PrePersist
-    void createdAt(){
+    void createdAt() {
         this.createdAt = new Date();
     }
 }

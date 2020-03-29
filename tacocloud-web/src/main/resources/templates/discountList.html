@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout.html}">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Шаверма "Вкусно"</title>
+	<link rel="stylesheet" th:href="@{/styles.css}">
+</head>
+<body>
+<section layout:fragment="main" class="content">
+	<h1>Промокоды:</h1>
+	<ul>
+		<li th:each="code : ${codes}">
+			Используй промокод <b>"<span th:text="${code.key}"></span>"</b> для
+			<span th:text="${code.value}"></span>% скидки с твоего заказа
+		</li>
+	</ul>
+</section>
+</body>
+</html>

@@ -49,7 +49,7 @@ import {SpecialsComponent} from "./specials/specials.component";
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    // AppRoutingModule,
     HttpModule,
     HttpClientModule,
     FormsModule,

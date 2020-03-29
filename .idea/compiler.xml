@@ -10,12 +10,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tacocloud-domain" />
-        <module name="tacocloud-ui" />
+        <module name="tacocloud-web" />
         <module name="tacocloud-security" />
         <module name="tacocloud-api" />
         <module name="tacocloud-data" />
         <module name="tacos" />
-        <module name="tacocloud-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,10 +24,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Spring_Taco_Maven" options="" />
+      <module name="tacocloud-api" options="-parameters -Xlint:all" />
       <module name="tacocloud-data" options="-parameters -Xlint:all" />
       <module name="tacocloud-domain" options="-parameters -Xlint:all" />
       <module name="tacocloud-security" options="-parameters -Xlint:all" />
-      <module name="tacocloud-ui" options="-parameters -Xlint:all" />
+      <module name="tacocloud-ui" options="" />
       <module name="tacocloud-web" options="-parameters -Xlint:all" />
       <module name="tacos" options="-parameters -Xlint:all" />
       <module name="tacso" options="-parameters -Xlint:all" />

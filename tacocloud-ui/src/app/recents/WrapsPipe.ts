@@ -1,14 +1,14 @@
-import {PipeTransform, Pipe} from "@angular/core";
+import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
   name: 'wraps'
 })
 
 export class WrapsPipe implements PipeTransform {
-  transform(ingredients: any, ...args): any {
+  transform(ingredients: any, ...args: any[]): any {
     const wraps = [];
     for (const ingredient of ingredients) {
-      if (ingredient.type == 'WRAP') {
+      if (ingredient.type === 'WRAP') {
         const wrap: any = {};
         wrap.id = ingredient.id;
         wrap.name = ingredient.name;
