@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b27576ba-0dbe-416b-9621-4d9779c03f62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TacoCloud.log.2020-03-26.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TacoCloud.log.2020-03-28.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/IngredientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/IngredientResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/IngredientResourceAssembler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/OrderApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/RecentTacosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/SpringDataRestConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/TacoResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/TacoResourceAssembler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/TacoResources.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tacocloud-ui/protractor.conf.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/api/ApiService.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.routes.ts" afterDir="false" />
@@ -62,76 +51,21 @@
       <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/specials/specials.component.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/specials/specials.component.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/specials/specials.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/java/tacos/DiscountCodeProps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/java/tacos/web/DiscountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/static/images/TacoCloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/static/images/cloud-taco.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/static/mustache/ingredients.mst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/static/mustache/recents.mst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/static/scripts/ingredients.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/static/scripts/recents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/templates/design.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/templates/discountList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/templates/orderForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/templates/orderList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/templates/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular/angular-csp.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular/angular.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular/angular.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular/angular.min.js.gzip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular/angular.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/angular/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/DesignTacoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/DesignTacoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-data/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-data/src/main/java/tacos/data/IngredientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-data/src/main/java/tacos/data/IngredientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-data/src/main/java/tacos/data/TacoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-data/src/main/java/tacos/data/TacoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-domain/src/main/java/tacos/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-domain/src/main/java/tacos/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-domain/src/main/java/tacos/Taco.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-domain/src/main/java/tacos/Taco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-security/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-security/src/main/java/tacos/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-security/src/main/java/tacos/security/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tacocloud-ui/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tacocloud-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tacocloud-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/app/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/header/header.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/app/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/header/header.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/NonWrapsPipe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/NonWrapsPipe.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/WrapsPipe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/WrapsPipe.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/recents.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/recents.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/recents.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/recents.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/recents.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/recents.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/polyfills.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-web/src/main/java/tacos/web/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-web/src/main/java/tacos/web/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tacos/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacos/src/main/java/tacos/DevelopmentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacos/src/main/java/tacos/DevelopmentConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacos/src/main/java/tacos/TacoCloudApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacos/src/main/java/tacos/TacoCloudApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacos/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacos/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tacos/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacos/target/classes/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacos/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tacos/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +130,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/tacocloud-ui" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MavenImportPreferences">
@@ -263,16 +197,16 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tacos" />
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Универ\4 курс\Spring_Taco_Maven\tacocloud-web\src\main\resources\static\mustache" />
       <recent name="D:\Универ\4 курс\Spring_Taco_Maven\tacocloud-web\src\main\resources\static" />
       <recent name="D:\Универ\4 курс\Spring_Taco_Maven\tacocloud-web\src\main\resources\scripts" />
       <recent name="D:\Универ\4 курс\Spring_Taco_Maven\tacocloud-web\src\main\resources" />
       <recent name="D:\Универ\4 курс\Spring_Taco_Maven\tacocloud-web\src\main\resources\images" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="tacos" />
-      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Универ\4 курс\Spring_Taco_Maven\tacocloud-ui\src\app\footer" />
@@ -560,38 +494,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584801270667" />
-    <state width="1140" height="212" key="GridCell.Tab.0.bottom" timestamp="1585512720641">
+    <state width="1133" height="212" key="GridCell.Tab.0.bottom" timestamp="1585592750337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1140" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585512720641" />
-    <state width="1140" height="212" key="GridCell.Tab.0.center" timestamp="1585512720641">
+    <state width="1133" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585592750337" />
+    <state width="1133" height="212" key="GridCell.Tab.0.center" timestamp="1585592750337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1140" height="212" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585512720641" />
-    <state width="1140" height="212" key="GridCell.Tab.0.left" timestamp="1585512720641">
+    <state width="1133" height="212" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585592750337" />
+    <state width="1133" height="212" key="GridCell.Tab.0.left" timestamp="1585592750337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1140" height="212" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585512720641" />
-    <state width="1140" height="212" key="GridCell.Tab.0.right" timestamp="1585512720641">
+    <state width="1133" height="212" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585592750337" />
+    <state width="1133" height="212" key="GridCell.Tab.0.right" timestamp="1585592750337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1140" height="212" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585512720641" />
-    <state width="1140" height="212" key="GridCell.Tab.1.bottom" timestamp="1585512720641">
+    <state width="1133" height="212" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585592750337" />
+    <state width="1133" height="212" key="GridCell.Tab.1.bottom" timestamp="1585592750337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1140" height="212" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585512720641" />
-    <state width="1140" height="212" key="GridCell.Tab.1.center" timestamp="1585512720641">
+    <state width="1133" height="212" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585592750337" />
+    <state width="1133" height="212" key="GridCell.Tab.1.center" timestamp="1585592750337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1140" height="212" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585512720641" />
-    <state width="1140" height="212" key="GridCell.Tab.1.left" timestamp="1585512720641">
+    <state width="1133" height="212" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585592750337" />
+    <state width="1133" height="212" key="GridCell.Tab.1.left" timestamp="1585592750337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1140" height="212" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585512720641" />
-    <state width="1140" height="212" key="GridCell.Tab.1.right" timestamp="1585512720641">
+    <state width="1133" height="212" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585592750337" />
+    <state width="1133" height="212" key="GridCell.Tab.1.right" timestamp="1585592750337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1140" height="212" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585512720641" />
+    <state width="1133" height="212" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585592750337" />
     <state width="938" height="293" key="GridCell.Tab.2.bottom" timestamp="1585503454403">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

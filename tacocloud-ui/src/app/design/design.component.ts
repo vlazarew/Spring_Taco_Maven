@@ -15,7 +15,7 @@ export class DesignComponent implements OnInit {
   model = {
     name: "",
     ingredients: []
-  }
+  };
 
   allIngredients: any;
   wraps = [];
@@ -30,11 +30,11 @@ export class DesignComponent implements OnInit {
   ngOnInit() {
     this.httpClient.get('http://localhost:8080/ingredients').subscribe(data => {
       this.allIngredients = data;
-      this.wraps = this.allIngredients.filter(w => w.type = 'WRAP');
-      this.proteins = this.allIngredients.filter(p => p.type = 'PROTEIN');
-      this.veggies = this.allIngredients.filter(v => v.type = 'VEGGIES');
-      this.cheeses = this.allIngredients.filter(c => c.type = 'CHEESE');
-      this.sauces = this.allIngredients.filter(s => s.type = 'SAUCE');
+      this.wraps = this.allIngredients.filter(w => w.type === 'WRAP');
+      this.proteins = this.allIngredients.filter(p => p.type === 'PROTEIN');
+      this.veggies = this.allIngredients.filter(v => v.type === 'VEGGIES');
+      this.cheeses = this.allIngredients.filter(c => c.type === 'CHEESE');
+      this.sauces = this.allIngredients.filter(s => s.type === 'SAUCE');
     })
   }
 
