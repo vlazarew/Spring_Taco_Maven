@@ -1,63 +1,67 @@
-import {BrowserModule} from '@angular/platform-browser';
-import {NgModule} from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpModule } from '@angular/http';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
-import {AppRoutingModule} from './app-routing.module';
-import {AppComponent} from './app.component';
-import {HeaderComponent} from "./header/header.component";
-import {HttpModule} from "@angular/http";
-import {HttpClientModule} from "@angular/common/http";
-import {FormsModule} from "@angular/forms";
-import {RouterModule} from "@angular/router";
-import {OAuthModule} from "angular-oauth2-oidc";
-import {CartService} from "./cart/cart-service";
-import {routes} from "./app.routes";
-import {FooterComponent} from "./footer/footer.component";
-import {CloudTitleComponent} from "./cloud-title/cloudtitle.component";
-import {CartComponent} from "./cart/cart.component";
-import {WrapsPipe} from "./recents/WrapsPipe";
-import {NonWrapsPipe} from "./recents/NonWrapsPipe";
-import {ApiService} from "./api/ApiService";
-import {DesignComponent} from "./design/design.component";
-import {BigButtonComponent} from "./big-button/bigbutton.component";
-import {GroupBoxComponent} from "./group-box/groupbox.component";
-import {HomeComponent} from "./home/home.component";
-import {LittleButtonComponent} from "./little-button/littlebutton.component";
-import {LocationsComponent} from "./locations/locations.component";
-import {LoginComponent} from "./login/login.component";
-import {RecentTacosService} from "./recents/RecentTacosService";
-import {RecentTacosComponent} from "./recents/recents.component";
-import {SpecialsComponent} from "./specials/specials.component";
+import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+import { RecentTacosComponent } from './recents/recents.component';
+import { ApiService } from './api/ApiService';
+import { RecentTacosService } from './recents/RecentTacosService';
+import { SpecialsComponent } from './specials/specials.component';
+
+import { routes } from './app.routes';
+import { CloudTitleComponent } from './cloud-title/cloudtitle.component';
+import { NonWrapsPipe } from './recents/NonWrapsPipe';
+import { WrapsPipe } from './recents/WrapsPipe';
+import { DesignComponent } from './design/design.component';
+import { GroupBoxComponent } from './group-box/groupbox.component';
+import { BigButtonComponent } from './big-button/bigbutton.component';
+import { LittleButtonComponent } from './little-button/littlebutton.component';
+import { LocationsComponent } from './locations/locations.component';
+// import { FormGroupDirective } from '@angular/forms/src/directives/reactive_directives/form_group_directive';
+import { HttpClientModule } from '@angular/common/http';
+
+import { OAuthModule } from 'angular-oauth2-oidc';
+import { CartComponent } from './cart/cart.component';
+import { CartService } from './cart/cart-service';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent,
-    CloudTitleComponent,
-    CartComponent,
-    WrapsPipe,
-    NonWrapsPipe,
-    DesignComponent,
-    BigButtonComponent,
-    GroupBoxComponent,
     HomeComponent,
-    LittleButtonComponent,
-    LocationsComponent,
     LoginComponent,
+    FooterComponent,
     RecentTacosComponent,
-    SpecialsComponent
+    SpecialsComponent,
+    LocationsComponent,
+    CloudTitleComponent,
+    DesignComponent,
+    CartComponent,
+    NonWrapsPipe,
+    WrapsPipe,
+    GroupBoxComponent,
+    BigButtonComponent,
+    LittleButtonComponent,
   ],
   imports: [
     BrowserModule,
-    // AppRoutingModule,
     HttpModule,
     HttpClientModule,
     FormsModule,
     RouterModule.forRoot(routes),
     // OAuthModule.forRoot()
   ],
-  providers: [CartService, ApiService, RecentTacosService],
+  providers: [
+    ApiService,
+    CartService,
+    RecentTacosService,
+  ],
   bootstrap: [AppComponent]
 })
-export class AppModule {
-}
+export class AppModule { }

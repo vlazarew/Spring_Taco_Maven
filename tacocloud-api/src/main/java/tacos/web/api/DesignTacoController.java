@@ -32,7 +32,6 @@ public class DesignTacoController {
     @Autowired
     EntityLinks entityLinks;
 
-
     @Autowired
     public DesignTacoController(TacoRepository tacoRepository) {
         this.tacoRepository = tacoRepository;

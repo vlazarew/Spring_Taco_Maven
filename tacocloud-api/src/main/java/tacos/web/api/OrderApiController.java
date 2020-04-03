@@ -1,44 +1,55 @@
 package tacos.web.api;
 
-import org.aspectj.weaver.ast.Or;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestController;
+
 import tacos.Order;
 import tacos.data.OrderRepository;
 
 @RestController
-@RequestMapping(path = "/orders",
-        produces = "application/json")
-@CrossOrigin(origins = "*")
+@RequestMapping(path="/orders",
+        produces="application/json")
+@CrossOrigin(origins="*")
 public class OrderApiController {
 
-    private OrderRepository orderRepository;
+    private OrderRepository repo;
 
-    public OrderApiController(OrderRepository orderRepository) {
-        this.orderRepository = orderRepository;
+    public OrderApiController(OrderRepository repo) {
+        this.repo = repo;
     }
 
-    @GetMapping(produces = "application/json")
+    @GetMapping(produces="application/json")
     public Iterable<Order> allOrders() {
-        return orderRepository.findAll();
+        return repo.findAll();
     }
 
-    @PostMapping(produces = "application/json")
+    @PostMapping(consumes="application/json")
     @ResponseStatus(HttpStatus.CREATED)
     public Order postOrder(@RequestBody Order order) {
-        return orderRepository.save(order);
+        return repo.save(order);
     }
 
-    @PutMapping(path = "/{orderId}", consumes = "application/json")
+    @PutMapping(path="/{orderId}", consumes="application/json")
     public Order putOrder(@RequestBody Order order) {
-        return orderRepository.save(order);
+        return repo.save(order);
     }
 
-    @PatchMapping(path = "/{orderId}", consumes = "application/json")
-    public Order patchOrder(@PathVariable("orderId") Long orderId, @RequestBody Order patch) {
-        Order order = orderRepository.findById(orderId).get();
+    @PatchMapping(path="/{orderId}", consumes="application/json")
+    public Order patchOrder(@PathVariable("orderId") Long orderId,
+                            @RequestBody Order patch) {
 
+        Order order = repo.findById(orderId).get();
         if (patch.getDeliveryName() != null) {
             order.setDeliveryName(patch.getDeliveryName());
         }
@@ -63,15 +74,15 @@ public class OrderApiController {
         if (patch.getCcCVV() != null) {
             order.setCcCVV(patch.getCcCVV());
         }
-        return orderRepository.save(order);
+        return repo.save(order);
     }
 
     @DeleteMapping("/{orderId}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteOrder(@PathVariable("orderId") Long orderId) {
         try {
-            orderRepository.deleteById(orderId);
-        } catch (EmptyResultDataAccessException e) {
-        }
+            repo.deleteById(orderId);
+        } catch (EmptyResultDataAccessException e) {}
     }
+
 }
