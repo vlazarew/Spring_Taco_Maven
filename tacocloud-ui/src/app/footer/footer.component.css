@@ -1,5 +1,6 @@
 div.footer {
-  background: #76D6FF linear-gradient(white, #76D6FF);
+  background-color: #76D6FF;
+  background: linear-gradient(white, #76D6FF);
   width: 100%;
   height: 70px;
   border-radius: 10px;

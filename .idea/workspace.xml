@@ -1,76 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b27576ba-0dbe-416b-9621-4d9779c03f62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TacoCloud.log.2020-03-30.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/protractor.conf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/api/ApiService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/big-button/bigbutton.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/big-button/bigbutton.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/big-button/bigbutton.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/cart/cart-item.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/cart/cart-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/cart/cart.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/cart/cart.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/cart/cart.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/cloud-title/cloudtitle.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/cloud-title/cloudtitle.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/cloud-title/cloudtitle.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/design/design.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/design/design.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/design/design.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/footer/cloud-taco.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/footer/footer.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/footer/footer.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/footer/footer.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/group-box/groupbox.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/group-box/groupbox.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/group-box/groupbox.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/header/cloud-taco.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/header/header.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/header/header.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/header/header.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/home/home.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/home/home.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/home/home.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/little-button/littlebutton.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/little-button/littlebutton.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/little-button/littlebutton.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/locations/locations.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/locations/locations.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/locations/locations.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/login/login.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/login/login.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/login/login.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/NonWrapsPipe.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/RecentTacosService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/WrapsPipe.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/recents.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/recents.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/recents.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/specials/specials.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/specials/specials.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/specials/specials.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/DesignTacoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/DesignTacoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/OrderApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/OrderApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/polyfills.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tacocloud-ui/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tacocloud-ui/src/test.ts" afterDir="false" />
-    </list>
+    <list default="true" id="f04473f6-9801-4cf6-bb23-d63ca9f6da9a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,64 +10,6 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
-  <component name="DatabaseLocalColorSettings">
-    <colors>
-      <entry key="8e92d759-b444-4db9-9a6c-899922e4df3a" value="Orange" />
-    </colors>
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="tacos@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="tacos@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="tacos: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-    </expand>
-    <select />
-  </component>
-  <component name="ExecutionTargetDialog">
-    <checked>
-      <node key="8e92d759-b444-4db9-9a6c-899922e4df3a">
-        <node key="tacos" />
-      </node>
-    </checked>
-    <expanded>
-      <node key="8e92d759-b444-4db9-9a6c-899922e4df3a" />
-    </expanded>
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Spring_Taco_Maven" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
-        <option value="Interface" />
-        <option value="CSS File" />
-        <option value="HTML File" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/tacocloud-ui" />
-    <option name="ROOT_SYNC" value="SYNC" />
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -144,132 +17,42 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/tacocloud-ui/package.json" />
-  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1ZGp8498D2vvG9DFrMYpAr287BQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1ZfrSHI0tw8s29Fs1qgwuItMwqe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tacocloud-ui/src/app/footer" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/tacocloud-ui/node_modules/protractor" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="spring" />
-    <property name="ts.external.directory.path" value="D:\Универ\4 курс\Spring_Taco_Maven\tacocloud-ui\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="tacos" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="tacos" />
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Универ\4 курс\Spring_Taco_Maven\tacocloud-web\src\main\resources\static\mustache" />
-      <recent name="D:\Универ\4 курс\Spring_Taco_Maven\tacocloud-web\src\main\resources\static" />
-      <recent name="D:\Универ\4 курс\Spring_Taco_Maven\tacocloud-web\src\main\resources\scripts" />
-      <recent name="D:\Универ\4 курс\Spring_Taco_Maven\tacocloud-web\src\main\resources" />
-      <recent name="D:\Универ\4 курс\Spring_Taco_Maven\tacocloud-web\src\main\resources\images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Универ\4 курс\Spring_Taco_Maven\tacocloud-ui\src\app\footer" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="tacos.web.api" />
-    </key>
-  </component>
-  <component name="RunManager" selected="npm.Angular CLI Server (tacocloud-ui)">
-    <configuration name="HomeControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring_Taco_Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tacos" />
-      <option name="MAIN_CLASS_NAME" value="tacos.HomeControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TacoCloudApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring_Taco_Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tacos" />
-      <option name="MAIN_CLASS_NAME" value="tacos.TacoCloudApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TacoCloudApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring_Taco_Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tacos" />
-      <option name="MAIN_CLASS_NAME" value="tacos.TacoCloudApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E2E Tests (tacocloud-ui)" type="JavaScriptTestRunnerProtractor">
-      <config-file value="$PROJECT_DIR$/tacocloud-ui/e2e/protractor.conf.js" />
+  <component name="RunManager" selected="Spring Boot.TacoCloudApplication">
+    <configuration name="E2E Tests (taco-web-ui)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/tacocloud-ui/protractor.conf.js" />
       <node-interpreter value="project" />
-      <protractor-package value="$PROJECT_DIR$/tacocloud-ui/node_modules/protractor" />
+      <protractor-package value="" />
       <protractor-options value="" />
       <envs />
       <scope-kind value="ALL" />
@@ -279,11 +62,8 @@
       <method v="2" />
     </configuration>
     <configuration name="TacoCloudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="tacos" />
+      <module name="taco-cloud" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tacos.TacoCloudApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -298,326 +78,68 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/tacocloud-ui/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="ng" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/tacocloud-ui/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="ng" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="JavaScript Debug.Angular Application (tacocloud-ui)" />
-      <item itemvalue="JUnit.HomeControllerTest" />
-      <item itemvalue="JUnit.TacoCloudApplicationTests" />
-      <item itemvalue="JUnit.TacoCloudApplicationTests.contextLoads" />
-      <item itemvalue="npm.Angular CLI Server (tacocloud-ui)" />
-      <item itemvalue="npm.build" />
-      <item itemvalue="npm.ng" />
-      <item itemvalue="Protractor.E2E Tests (tacocloud-ui)" />
-      <item itemvalue="Spring Boot.TacoCloudApplication" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.ng" />
-        <item itemvalue="npm.build" />
-        <item itemvalue="JUnit.TacoCloudApplicationTests" />
-        <item itemvalue="JUnit.HomeControllerTest" />
-        <item itemvalue="JUnit.TacoCloudApplicationTests.contextLoads" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="tacos@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="tacos@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@3d2c362" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="tacos@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@5953a686" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
-  <component name="SpringMvcView">
-    <option name="showControllers" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b27576ba-0dbe-416b-9621-4d9779c03f62" name="Default Changelist" comment="" />
-      <created>1584475122754</created>
+      <changelist id="f04473f6-9801-4cf6-bb23-d63ca9f6da9a" name="Default Changelist" comment="" />
+      <created>1585240987326</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584475122754</updated>
-      <workItem from="1584475126526" duration="4245000" />
-      <workItem from="1584558266072" duration="3348000" />
-      <workItem from="1584561637563" duration="426000" />
-      <workItem from="1584634289059" duration="284000" />
-      <workItem from="1584634585871" duration="1368000" />
-      <workItem from="1584641554849" duration="5968000" />
-      <workItem from="1584721567602" duration="11658000" />
-      <workItem from="1584733583968" duration="2332000" />
-      <workItem from="1584780608576" duration="708000" />
-      <workItem from="1584781500314" duration="727000" />
-      <workItem from="1584782379361" duration="6465000" />
-      <workItem from="1584797216253" duration="4053000" />
-      <workItem from="1584801655079" duration="4478000" />
-      <workItem from="1584866390635" duration="387000" />
-      <workItem from="1584883771934" duration="9876000" />
-      <workItem from="1584905828209" duration="1022000" />
-      <workItem from="1584907240136" duration="2290000" />
-      <workItem from="1585067340818" duration="1005000" />
-      <workItem from="1585069282976" duration="961000" />
-      <workItem from="1585075922646" duration="3725000" />
-      <workItem from="1585079685817" duration="1663000" />
-      <workItem from="1585239936567" duration="611000" />
-      <workItem from="1585241108057" duration="2226000" />
-      <workItem from="1585243432060" duration="4409000" />
-      <workItem from="1585249316967" duration="1564000" />
-      <workItem from="1585327332384" duration="2797000" />
-      <workItem from="1585330144732" duration="986000" />
-      <workItem from="1585331160575" duration="2542000" />
-      <workItem from="1585333811435" duration="2038000" />
-      <workItem from="1585386622641" duration="4341000" />
-      <workItem from="1585390981124" duration="19409000" />
-      <workItem from="1585431704850" duration="347000" />
-      <workItem from="1585470809592" duration="689000" />
-      <workItem from="1585487833541" duration="14310000" />
-      <workItem from="1585938180282" duration="668000" />
+      <updated>1585240987326</updated>
+      <workItem from="1585240990144" duration="104000" />
+      <workItem from="1585248165077" duration="290000" />
+      <workItem from="1585589915274" duration="210000" />
+      <workItem from="1585591792678" duration="439000" />
+      <workItem from="1585942302602" duration="926000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/Spring_Taco_Maven Jdbc" />
-    </ignored-roots>
-  </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Assign_Data_Sources" timestamp="1585421252332">
+    <state x="593" y="241" key="#Angular_CLI_Server_(tacocloud-ui)" timestamp="1585241056379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Assign_Data_Sources/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585421252332" />
-    <state x="552" y="178" key="#Inspections" timestamp="1585421166043">
+    <state x="593" y="241" key="#Angular_CLI_Server_(tacocloud-ui)/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585241056379" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585248383341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Inspections/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585421166043" />
-    <state x="552" y="178" key="#Notifications" timestamp="1584795271774">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585248383341" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585944653641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Notifications/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584795271774" />
-    <state x="552" y="178" key="#Project_Structure" timestamp="1585432008076">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585944653641" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1585944653640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585432008076" />
-    <state x="552" y="178" key="#SQL_Dialects" timestamp="1584727711292">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585944653640" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1585944653640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#SQL_Dialects/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584727711292" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585470939413">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585944653640" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1585944653641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585470939413" />
-    <state x="686" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585426026255">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585944653640" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1585944653641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="686" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585426026255" />
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1585509270108">
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585944653641" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1585944653641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585509270108" />
-    <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585470930859">
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585944653641" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1585944653641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585470930859" />
-    <state x="590" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585249905630">
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585944653641" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1585944653641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="590" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585249905630" />
-    <state x="756" y="379" width="470" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585423897843">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="756" y="379" width="470" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585423897843" />
-    <state x="768" y="350" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1584785993620">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="768" y="350" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584785993620" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585393123040">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585393123040" />
-    <state x="881" y="272" key="#xdebugger.XInspectDialog" timestamp="1584806598347">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="881" y="272" key="#xdebugger.XInspectDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584806598347" />
-    <state x="715" y="222" width="996" height="595" key="#xdebugger.evaluate" timestamp="1585491732457">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="715" y="222" width="996" height="595" key="#xdebugger.evaluate/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585491732457" />
-    <state width="427" height="447" key="DebuggerActiveHint" timestamp="1584783921011">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="427" height="447" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584783921011" />
-    <state x="758" y="222" key="ExecutionTargetDialog" timestamp="1585413943682">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="758" y="222" key="ExecutionTargetDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585413943682" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1584801270667">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584801270667" />
-    <state width="1131" height="212" key="GridCell.Tab.0.bottom" timestamp="1585938427988">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1131" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585938427988" />
-    <state width="1131" height="212" key="GridCell.Tab.0.center" timestamp="1585938427987">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1131" height="212" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585938427987" />
-    <state width="1131" height="212" key="GridCell.Tab.0.left" timestamp="1585938427987">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1131" height="212" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585938427987" />
-    <state width="1131" height="212" key="GridCell.Tab.0.right" timestamp="1585938427987">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1131" height="212" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585938427987" />
-    <state width="1131" height="212" key="GridCell.Tab.1.bottom" timestamp="1585938427988">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1131" height="212" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585938427988" />
-    <state width="1131" height="212" key="GridCell.Tab.1.center" timestamp="1585938427988">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1131" height="212" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585938427988" />
-    <state width="1131" height="212" key="GridCell.Tab.1.left" timestamp="1585938427988">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1131" height="212" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585938427988" />
-    <state width="1131" height="212" key="GridCell.Tab.1.right" timestamp="1585938427988">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1131" height="212" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585938427988" />
-    <state width="938" height="293" key="GridCell.Tab.2.bottom" timestamp="1585593350685">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="293" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585593350685" />
-    <state width="938" height="293" key="GridCell.Tab.2.center" timestamp="1585593350685">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="293" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585593350685" />
-    <state width="938" height="293" key="GridCell.Tab.2.left" timestamp="1585593350685">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="293" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585593350685" />
-    <state width="938" height="293" key="GridCell.Tab.2.right" timestamp="1585593350685">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="293" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585593350685" />
-    <state width="938" height="293" key="GridCell.Tab.3.bottom" timestamp="1585503454403">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="293" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585503454403" />
-    <state width="938" height="293" key="GridCell.Tab.3.center" timestamp="1585503454403">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="293" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585503454403" />
-    <state width="938" height="293" key="GridCell.Tab.3.left" timestamp="1585503454403">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="293" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585503454403" />
-    <state width="938" height="293" key="GridCell.Tab.3.right" timestamp="1585503454403">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="293" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585503454403" />
-    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1584735029287">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584735029287" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1585414071778">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585414071778" />
-    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1584786100082">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584786100082" />
-    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584907601706">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584907601706" />
-    <state x="731" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584478058760">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="731" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584478058760" />
-    <state x="521" y="255" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584909469929">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="521" y="255" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584909469929" />
-    <state x="677" y="328" key="jetbrains.nodejs.interpreters-dialog" timestamp="1585243330846">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="677" y="328" key="jetbrains.nodejs.interpreters-dialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585243330846" />
-    <state x="342" y="215" key="new project wizard" timestamp="1585250331136">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="342" y="215" key="new project wizard/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585250331136" />
-    <state x="702" y="138" key="refactoring.ChangeSignatureDialog" timestamp="1584561252471">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="702" y="138" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584561252471" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1584888575780">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1584888575780" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585489760379">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585489760379" />
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="SpringBootApplicationConfigurationType">
-        <watch expression="types" />
-        <watch expression="type.toString().toLowerCase()" language="JAVA" />
-        <watch expression="ingredientRepository.findAll()" language="JAVA" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Spring_Taco_Maven$TacoCloudApplication.ic" NAME="TacoCloudApplication Coverage Results" MODIFIED="1585067705458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1585944653641" />
   </component>
 </project>

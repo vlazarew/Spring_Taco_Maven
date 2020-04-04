@@ -1,12 +1,14 @@
-import {Injectable} from "@angular/core";
-import {ApiService} from "../api/ApiService";
+import { Injectable } from '@angular/core';
+import { ApiService } from '../api/ApiService';
 
 @Injectable()
 export class RecentTacosService {
-  constructor(private apiService:ApiService) {
+
+  constructor(private apiService: ApiService) {
   }
 
-  getRecentTacos(){
+  getRecentTacos() {
     return this.apiService.get('/design/recent');
   }
+
 }

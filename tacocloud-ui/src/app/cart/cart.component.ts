@@ -1,6 +1,6 @@
-import {Component, OnInit, Injectable} from "@angular/core";
-import {CartService} from "./cart-service";
-import {HttpClient, HttpHeaders} from "@angular/common/http";
+import { Component, OnInit, Injectable } from '@angular/core';
+import { CartService } from './cart-service';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Component({
   selector: 'taco-cart',
@@ -14,7 +14,6 @@ export class CartComponent implements OnInit {
   model = {
     deliveryName: '',
     deliveryStreet: '',
-    deliveryCity: '',
     deliveryState: '',
     deliveryZip: '',
     ccNumber: '',
@@ -27,8 +26,7 @@ export class CartComponent implements OnInit {
     this.cart = cart;
   }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   get cartItems() {
     return this.cart.getItemsInCart();
@@ -39,13 +37,19 @@ export class CartComponent implements OnInit {
   }
 
   onSubmit() {
+    // this.model.tacos = this.cart.getItemsInCart();
     this.cart.getItemsInCart().forEach(cartItem => {
       this.model.tacos.push(cartItem.taco);
     });
 
-    this.httpClient.post('http://localhost:8080/orders',
-      this.model, {
-        headers: new HttpHeaders().set('Content-type', 'application/json').set('Accept', 'application/json'),
-      }).subscribe(r => this.cart.emptyCart());
+    this.httpClient.post(
+        'http://localhost:8080/orders',
+        this.model, {
+            headers: new HttpHeaders().set('Content-type', 'application/json')
+                    .set('Accept', 'application/json'),
+        }).subscribe(r => this.cart.emptyCart());
+
+    // TODO: Do something after this...navigate to a thank you page or something
   }
+
 }

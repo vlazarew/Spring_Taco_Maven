@@ -1,10 +1,10 @@
 input.formField {
-  font-size: 16px;
+  font-size: 16pt;
   background: none;
   border: none;
   border-bottom: 1px solid #003366;
 }
 
-group-box{
-  width: 1000px;
+group-box {
+  width:1000px;
 }

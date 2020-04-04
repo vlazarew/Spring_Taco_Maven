@@ -1,57 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <artifactId>Spring_Taco_Maven</artifactId>
-        <groupId>VovaTest</groupId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
-    <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+          http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tacocloud-security</artifactId>
+	<artifactId>tacocloud-security</artifactId>
+	<packaging>jar</packaging>
 
+	<name>tacocloud-security</name>
+	<description>Taco Cloud Security</description>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
-    </properties>
+	<parent>
+		<groupId>sia</groupId>
+  	<artifactId>taco-cloud-parent</artifactId>
+		<version>0.0.6-SNAPSHOT</version>
+	</parent>
 
-    <dependencies>
-        <!-- TacoCloud dependencies -->
-        <dependency>
-            <groupId>VovaTest</groupId>
-            <artifactId>tacocloud-data</artifactId>
-            <version>${tacocloud.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>VovaTest</groupId>
-            <artifactId>tacocloud-domain</artifactId>
-            <version>${tacocloud.version}</version>
-        </dependency>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+	</properties>
 
-        <!-- Necessary Boot starters -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
+	<dependencies>
+		<!-- TacoCloud dependencies -->
+		<dependency>
+			<groupId>sia</groupId>
+			<artifactId>tacocloud-data</artifactId>
+			<version>${tacocloud.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>sia</groupId>
+			<artifactId>tacocloud-domain</artifactId>
+			<version>${tacocloud.version}</version>
+		</dependency>
 
-        <!-- Lombok -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <scope>provided</scope>
-        </dependency>
+		<!-- Necessary Boot starters -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
 
-        <!-- Test dependencies -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
+		<!-- Lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
 
-    </dependencies>
+		<!-- Test dependencies -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
 
+	</dependencies>
 
 </project>

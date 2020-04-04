@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from "@angular/core";
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'group-box',
@@ -9,9 +9,7 @@ import {Component, Input, OnInit} from "@angular/core";
 export class GroupBoxComponent implements OnInit {
   @Input() title: String;
 
-  constructor() {
-  }
+  constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit() { }
 }

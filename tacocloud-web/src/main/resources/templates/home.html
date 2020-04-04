@@ -1,22 +1,18 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://thymeleaf.org"
+<html xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-      layout:decorate="~{layout.html}">
-
-<head>
-	<title>Шаверма "Вкусно"</title>
-</head>
-
-<body>
-<h1>Здарова</h1>
-<!--        <img th:src="@{/images/TacoCloud.png}"/>-->
-<img th:src="@{images/swarma.jpg}">
-
-<form method="POST" th:action="@{/logout}" id="logoutForm">
-	<input type="submit" value="Logout"/>
-</form>
-
-<a th:href="@{/design}" id="design">Составь свою шаверму</a>
-</body>
+	  layout:decorate="~{layout.html}">
+  <head>
+    <title>Taco Cloud</title>
+    <script th:src="@{/scripts/recents.js}"></script>
+  </head>
+  
+  <body>
+    <section layout:fragment="main" class="content">	    
+	    <a th:href="@{/design}" id="design">Design a taco</a>
+	    
+	    <div id="recents"></div>
+	</section>    
+  </body>
 </html>

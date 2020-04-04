@@ -1,22 +1,22 @@
-<cloud-title>Полюбоваться некоторыми недавно созданными шедеврами тако</cloud-title>
+<cloud-title>Admire some recently created taco masterpieces</cloud-title>
 
-<p>Даже величайшие художники иногда должны вдохновляться работами других. Вот некоторые из самых последних созданных
-   тако, разработанных такими же художниками, как вы...</p>
+<p>Even the greatest artists sometimes need to be inspired by the works of others.
+  Here are some of the most recently created tacos, designed by taco artists just like you...</p>
 
 <div class="recentsblock">
   <div class="tacoblock" *ngFor="let taco of recentTacos">
-    <div class="tacoName"><span class="small">The</span><br/>"{{taco.name}}"</div>
-    <div class="tacoDesc">
-      <ul class="commalist">
-        <li *ngFor="let ingredient of taco.ingredients | nonwraps">{{ingredient.name}}</li>
-      </ul>
-      <div *ngIf="(taco.ingredients | wraps)?.length > 0">
-        <span>завернуто в </span><ul class="commalist">
-        <li *ngFor="let ingredient of taco.ingredients | wraps">{{ingredient.name}}</li>
-      </ul>
+      <div class="tacoName"><span class="small">The</span><br/>"{{taco.name}}"</div>
+      <div class="tacoDesc">
+        <ul class="commalist">
+          <li *ngFor="let ingredient of taco.ingredients | nonwraps">{{ingredient.name}}</li>
+        </ul>
+        <div *ngIf="(taco.ingredients | wraps)?.length > 0">
+        <span>wrapped in</span><ul class="commalist">
+            <li *ngFor="let ingredient of taco.ingredients | wraps">{{ingredient.name}}</li>
+        </ul>
+        </div>
+        <div *ngIf="(taco.ingredients | wraps)?.length == 0">in a bowl</div>
       </div>
-      <div *ngIf="(taco.ingredients | wraps)?.length == 0">на тарелке</div>
-    </div>
-    <little-button label="Заказать тако"></little-button>
+      <little-button label="Order this taco"></little-button>
   </div>
 </div>
